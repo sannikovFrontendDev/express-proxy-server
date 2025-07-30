@@ -40,7 +40,7 @@ PORT=3000
 ## ▶️ Запуск сервера
 
 ```bash
-node server.js
+npm run start
 ```
 
 После запуска:
