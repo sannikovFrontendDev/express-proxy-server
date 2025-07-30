@@ -24,6 +24,7 @@ PROXY_ROUTE=/proxyendpoint
 PROXY_TARGET=https://api.targetservice.dev
 PATH_REWRITE_FROM=^/proxyendpoint/local
 PATH_REWRITE_TO=/proxyendpoint/remote.service.dev
+PORT=3000
 ```
 
 **Пояснение параметров:**
@@ -32,6 +33,7 @@ PATH_REWRITE_TO=/proxyendpoint/remote.service.dev
 - `PROXY_TARGET` — URL целевого API
 - `PATH_REWRITE_FROM` — входящий путь (регулярное выражение)
 - `PATH_REWRITE_TO` — путь назначения
+- `PORT` — порт, на котором будет запущен сервер
 
 ---
 
